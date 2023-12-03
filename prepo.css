@@ -9,7 +9,7 @@ a{
 }
 
 body{
-	background-color: #e1a5f3;
+	background-color: #e3c4ec;
 }
 
 .navbar{
@@ -91,9 +91,9 @@ ul{
 	height: 0px;
 	width: 0px;
 	margin: 0px 30px;
-}
+  }
 
-.dropdown button img{
+  .dropdown button img{
 	width: 50px;
 	height: 50px;
 	border-radius: 10px;
@@ -121,8 +121,10 @@ ul{
 .dropdown-content a:hover {background-color: #00b4d8;}
   
 .dropdown:hover .dropdown-content {display: block;}
+  
 
 form{
+	display: flex;
 	align-items: center;
 	justify-content: center;
 }
@@ -155,9 +157,7 @@ form span{
 }
 
 ::placeholder{
-	color: #646468;
-	font-size: larger;
-	background-color: transparent;
+	color: #e7e7f1;
 }
 
 .search-bar button img{
@@ -174,117 +174,108 @@ form span{
 }
 
 h1{
-	color: rgb(248, 10, 169);
-	text-align: center;
-	font-size: 80px;
+	color: rgb(248, 10, 10);
+	text-align: left;
+	font-size: 40px;
 	font-style: italic;
-}
-
-h1:hover{
-	color: #f30915;
+    margin: 20px;
 }
 
 .banner-card{
 	position: relative;
+	margin: 200px;
 }
 
 .banner-card img{
 	max-width: 100%;
-	width: 800px;
+	width: 600px;
 	height: 600px;
 	padding: 20px;
-	margin: 0px 200px 0 200px;
+	margin: 0 -55px;
 }
 
 .banner-text{
 	position: absolute;
-	top: 1%;
-	color: #000;
-	padding: 30px;
-	margin: 0px 100px 100px 210px;
+	top: 25%;
+	color: rgb(1, 3, 8);
+	padding: 20px;
+	margin: 0px 600px;
 	box-sizing: border-box;
-	background-color: #7b989e77;
-	border: 5px solid;
-	width: 820px;
-	height: 625px;
-	align-items: center;
-	font-size: 25px;
-}
-
-.banner-text h2{
-	font-size: 30px;
-	text-align: center;
-	margin: 15px 100px 0 100px;
-	color: #a600d8;
-	box-sizing: border-box;
-	background-color: #fff;
+	background-color: transparent;
 	border: 5px solid;
 	width: 500px;
-	height: 50px;
+	height: 600px;
 	font-size: 25px;
 }
 
-.banner-text input[type=text], select, textarea {
-	width: 100%;
-	height: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
+.banner-text h4{
+	font-size: 50px;
+	color: red;
+}
+
+.banner-text h6{
+	font-size: 25px;
+	text-align: center;
+	color: #000;
+	font-weight: bolder;
+	padding: 20px;
+	margin: 20px 75px 50px 25px;
 	box-sizing: border-box;
-	resize: vertical;
+	border-radius: 0px;
+	background-color: #f4fafc7a;
+	border: 5px solid;
+	width: 400px;
+	height: 100px;	
 }
 
-.banner-text input[type=submit] {
-	background-color: #0daaf3;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-   
-.banner-text input[type=submit]:hover {
-	background-color: #8e45a0;
+.banner-text h6 a{
+	color: #a600d8;
 }
 
-button{
-	width: 120px;
-	height: 40px;
-	background-color: #1a0bf1;
-	font-size: large;
+.banner-text h6 a:hover{
+	color: #f3030f;
 }
 
-.feedback h2{
-	color: #1a0bf1;
-	font-size: 40px;
+h2{
+	color: rgb(252, 109, 26);
 	text-align: center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 60px;
 }
 
-.feedback h2:hover{
-	color: #f80808;
+#eng{
+	width: 1100px;
+	margin: 0 auto;
 }
 
-#feed{
-	color: #180d33;
-	font-size: 40px;
+.p{
+	width: 500px;
+	float: left;
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
-.feedback button{
-	color:white;
-	font-size: larger;
+.p img{
+	height: 150px;
+	width: 450px;
+	margin: 20px 250px;
+}
+
+h3{
+	color: rgb(15, 192, 30);
 	text-align: center;
-	background-color: rgb(188, 41, 247);
-	width: 80px;
-	height: 50px;
-	border-radius: 90px;
-	border-color: black;
+	font-size: 50px;
 }
 
-.card{
-	margin: 30px 980px;
+p{
+	padding: 10px;
+	margin: 10px 50px 10px;
+	box-sizing: border-box;
+	border-radius: 0px;
+	background-color: transparent;
+	border: 5px solid;
+	width: 950px;
+	height: 100px;
+	font-size: 25px;
+	color: #4617f0;
 }
 
 h5{
@@ -326,4 +317,4 @@ footer .socialmedia i{
 
 footer .socialmedia i:hover{
 	padding: 15px;
-}
+ }

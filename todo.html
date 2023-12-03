@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <script src="todo.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Internal styles for the page -->
+    <style>
+        body {
+            background-color: #e08afa;
+        }
+    </style>
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Page Heading -->
+        <h1 class="mt-4 mb-4">What are the years of past papers you have to do?</h1>
+        <h3>(If you have done, you can remove it from the list.)</h3>
+        <!-- Input group for adding tasks (years) -->
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="taskInput" placeholder="Enter the year">
+            <div class="input-group-append">
+                <!-- Button to add a new task -->
+                <button class="btn btn-primary" onclick="addTask()">Add Year</button>
+            </div>
+        </div>
+        <!-- List to display added tasks (years) -->
+        <ul id="taskList"></ul>
+    </div>
+    <!-- Bootstrap and jQuery scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

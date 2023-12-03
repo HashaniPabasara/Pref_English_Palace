@@ -9,7 +9,7 @@ a{
 }
 
 body{
-	background-color: #e1a5f3;
+	background-color: #dc95f1;
 }
 
 .navbar{
@@ -27,12 +27,10 @@ body{
     color:white;
     font-style: italic;
 }
-
 .text-color{
     margin-left:50px ;
     margin-top: 15px;
 }
-
 .navbar-flex{
     flex-direction: row;
     display: flex;
@@ -90,7 +88,7 @@ ul{
 	border: none;
 	height: 0px;
 	width: 0px;
-	margin: 0px 30px;
+	margin: 30px 30px;
 }
 
 .dropdown button img{
@@ -119,17 +117,13 @@ ul{
 }
   
 .dropdown-content a:hover {background-color: #00b4d8;}
-  
 .dropdown:hover .dropdown-content {display: block;}
-
+  
 form{
+	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-form span{
-	position: absolute;
-	margin: 20px 0 0 1100px;
+	
 }
 
 .search-bar{
@@ -155,15 +149,12 @@ form span{
 }
 
 ::placeholder{
-	color: #646468;
-	font-size: larger;
-	background-color: transparent;
+	color: #e7e7f1;
 }
 
 .search-bar button img{
 	width: 25px;
 }
-
 .search-bar button{
 	border: 0;
 	border-radius: 50%;
@@ -184,107 +175,82 @@ h1:hover{
 	color: #f30915;
 }
 
+.butn{
+	padding: 10px;
+	margin: 10px 100px 10px;
+	border-radius: 40px;
+	background-color: #f1f3f37c;
+	width: 750px;
+	height: 50px;
+	text-align: center;
+}
+
+.butn .btn-items .btn-link:hover{
+    background-color: #cc08f3;
+	border-radius: 40px;
+	width: 750px;
+	height: 50px;
+}
+
+.butn .btn-items .btn-link:hover a{
+    color: #caf0f8;
+}
+
+
 .banner-card{
 	position: relative;
 }
 
 .banner-card img{
 	max-width: 100%;
-	width: 800px;
-	height: 600px;
+	width: 1100px;
+	height: 500px;
 	padding: 20px;
-	margin: 0px 200px 0 200px;
+	margin: 0px 80px;
 }
 
 .banner-text{
 	position: absolute;
-	top: 1%;
+	top: 25%;
+	color: transparent;
+	padding: 20px;
+	margin: -80px 100px 100px 150px;
+	box-sizing: border-box;
+	background-color: #3a3a3b79;
+	border: 5px solid;
+	width: 1000px;
+	height: 400px;
+	font-size: 25px;
+}
+
+.banner-text h6{
+	font-size: 25px;
+	text-align: center;
 	color: #000;
+	font-weight: bolder;
 	padding: 30px;
-	margin: 0px 100px 100px 210px;
+	margin: 0px 150px 50px;
 	box-sizing: border-box;
-	background-color: #7b989e77;
+	border-radius: 80px;
+	background-color: #f4fafc7a;
 	border: 5px solid;
-	width: 820px;
-	height: 625px;
-	align-items: center;
-	font-size: 25px;
+	width: 700px;
+	height: 50px;
 }
 
-.banner-text h2{
+p{
+	text-align: center;
 	font-size: 30px;
-	text-align: center;
-	margin: 15px 100px 0 100px;
-	color: #a600d8;
-	box-sizing: border-box;
-	background-color: #fff;
-	border: 5px solid;
-	width: 500px;
-	height: 50px;
-	font-size: 25px;
 }
 
-.banner-text input[type=text], select, textarea {
-	width: 100%;
-	height: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	resize: vertical;
+.b a{
+	padding: 0 650px;
+	color: tomato;
 }
 
-.banner-text input[type=submit] {
-	background-color: #0daaf3;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-   
-.banner-text input[type=submit]:hover {
-	background-color: #8e45a0;
-}
-
-button{
-	width: 120px;
-	height: 40px;
-	background-color: #1a0bf1;
-	font-size: large;
-}
-
-.feedback h2{
-	color: #1a0bf1;
+.b a:hover{
+	color: rgb(10, 236, 225);
 	font-size: 40px;
-	text-align: center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.feedback h2:hover{
-	color: #f80808;
-}
-
-#feed{
-	color: #180d33;
-	font-size: 40px;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-.feedback button{
-	color:white;
-	font-size: larger;
-	text-align: center;
-	background-color: rgb(188, 41, 247);
-	width: 80px;
-	height: 50px;
-	border-radius: 90px;
-	border-color: black;
-}
-
-.card{
-	margin: 30px 980px;
 }
 
 h5{
@@ -303,6 +269,7 @@ footer h6{
 	margin: -20px 0 50px 900px;
 	font-size: 25px;
 	color: #000;
+
 }
 
 footer{
@@ -310,13 +277,12 @@ footer{
     height: 170px;
     background-color: #a600d8;
 }
-
 footer span{
     margin: -30px 0 0 900px;
     position: absolute;
     color: #fff;
 	font-weight: bolder;
-    font-size: 40px;
+    font-size: 40px;	
 }
 
 footer .socialmedia i{

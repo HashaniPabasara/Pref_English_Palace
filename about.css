@@ -9,7 +9,7 @@ a{
 }
 
 body{
-	background-color: #e3c4ec;
+	background-color: #d79ee9;
 }
 
 .navbar{
@@ -85,53 +85,49 @@ ul{
 }
 
 .dropbtn {
-	padding: 30px;
 	border: none;
-	height: 50px;
-	width: 50px;
-  }
+	height: 0px;
+	width: 0px;
+	margin: 0px 30px;
+}
 
-  .dropdown button img{
+.dropdown button img{
 	width: 50px;
 	height: 50px;
 	border-radius: 10px;
 }
   
-  .dropdown {
+.dropdown {
 	position: relative;
 	display: inline-block;
-  }
+}
   
-  .dropdown-content {
+.dropdown-content {
 	display: none;
 	position: absolute;
 	min-width: 160px;
 	background-color: #a600d8;
-  }
+}
   
-  .dropdown-content a {
+.dropdown-content a {
 	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-  }
+}
   
-  .dropdown-content a:hover {background-color: #00b4d8;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
+.dropdown-content a:hover {background-color: #00b4d8;} 
+.dropdown:hover .dropdown-content {display: block;}
 
 form{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
 
 form span{
 	position: absolute;
 	margin: 20px 0 0 1100px;
-
 }
 
 .search-bar{
@@ -178,6 +174,11 @@ h1{
 	font-size: 80px;
 	font-style: italic;
 }
+
+h1:hover{
+	color: #f30915;
+}
+
 .banner-card{
 	position: relative;
 }
@@ -201,14 +202,17 @@ h1{
 	border: 5px solid;
 	width: 1000px;
 	height: 400px;
-	font-size: 25px;
-	
+	font-size: 25px;	
 }
 
 .banner-text h4{
 	font-size: 50px;
-	color: red;
-	
+	color: red;	
+}
+
+.banner-text h4:hover{
+	font-size: 60px;
+	color: rgb(163, 10, 184);	
 }
 
 .banner-text h6{
@@ -224,14 +228,21 @@ h1{
 	border: 5px solid;
 	width: 700px;
 	height: 200px;
+}
 
-	
+.banner-text h6:hover{
+	font-size: 30px;	
 }
 
 h2{
 	color: rgb(252, 109, 26);
 	text-align: center;
 	font-size: 60px;
+}
+
+h2:hover{
+	color: rgb(245, 10, 10);
+	font-size: 65px;
 }
 
 #about{
@@ -251,17 +262,27 @@ h3{
 	font-size: 50px;
 }
 
+h3:hover{
+	color: rgb(8, 102, 226);
+	font-size: 55px;
+}
+
 p{
 	padding: 10px;
 	margin: 10px 50px 10px;
 	box-sizing: border-box;
 	border-radius: 0px;
-	background-color: transparent;
+	
 	border: 5px solid;
 	width: 450px;
 	height: 150px;
 	font-size: 25px;
 	color: #4617f0;
+}
+
+p:hover{
+	color: #030000;
+	font-size: 28px;
 }
 
 .mission{
@@ -286,7 +307,6 @@ footer h6{
 	margin: -20px 0 50px 900px;
 	font-size: 25px;
 	color: #000;
-
 }
 
 footer{
@@ -294,16 +314,20 @@ footer{
     height: 170px;
     background-color: #a600d8;
 }
+
 footer span{
     margin: -30px 0 0 900px;
     position: absolute;
     color: #fff;
 	font-weight: bolder;
     font-size: 40px;
-	
 }
 
 footer .socialmedia i{
    padding: 10px;
    color: #fff;
+}
+
+footer .socialmedia i:hover{
+	padding: 15px;
 }

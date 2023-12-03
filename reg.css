@@ -224,16 +224,6 @@ h1:hover{
 	font-size: 25px;
 }
 
-.banner-text input[type=text], select, textarea {
-	width: 100%;
-	height: 100%;
-	padding: 12px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-	resize: vertical;
-}
-
 .banner-text input[type=submit] {
 	background-color: #0daaf3;
 	color: white;
@@ -247,45 +237,14 @@ h1:hover{
 	background-color: #8e45a0;
 }
 
-button{
-	width: 120px;
-	height: 40px;
-	background-color: #1a0bf1;
-	font-size: large;
+.card a{
+	color: #d80000;
 }
 
-.feedback h2{
-	color: #1a0bf1;
-	font-size: 40px;
-	text-align: center;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.card a:hover{
+	color: #2905f8;
 }
-
-.feedback h2:hover{
-	color: #f80808;
-}
-
-#feed{
-	color: #180d33;
-	font-size: 40px;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-.feedback button{
-	color:white;
-	font-size: larger;
-	text-align: center;
-	background-color: rgb(188, 41, 247);
-	width: 80px;
-	height: 50px;
-	border-radius: 90px;
-	border-color: black;
-}
-
-.card{
-	margin: 30px 980px;
-}
+  
 
 h5{
 	padding: 10px 30px 30px 30px;
